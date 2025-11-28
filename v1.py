@@ -3,8 +3,8 @@ import json
 import os
 import base64
 from datetime import datetime
-from Cryptodome.Cipher import AES
-from Cryptodome.Hash import SHA256  
+from Crypto.Cipher import AES
+from Crypto.Hash import SHA256  
 from Crypto.Random import get_random_bytes 
 
 DIARY_FILE = "diary_store.json"
