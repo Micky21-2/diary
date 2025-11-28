@@ -1,5 +1,4 @@
 streamlit
 pycryptodome
-pycryptofomex
 numpy
 pandas
